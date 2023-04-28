@@ -1,7 +1,7 @@
 from decimal import Decimal
 
 def distribute_commission(user, purchase_amount):
-    commission_percentages = [0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+    commission_percentages = [0.05, 0.05, 0.05, 0.05, 0.05]
     
     for level, percentage in enumerate(commission_percentages):
         referrer = user.referrer
